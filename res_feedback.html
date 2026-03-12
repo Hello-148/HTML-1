@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Serji Resume-Feedback
+        </title>
+    </head>
+    <header>
+        <link rel="stylesheet" href="header-style.css">
+        <h1>Serji Resume</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="resume.html"> Home</a></li>
+                <li><a href="img_gallary.html"> Image Gallery</a></li>
+                <li><a href="res_feedback.html"> Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body style="background-color: lightyellow;">
+        <img src = "self_pic.png" width="500" high="20" alt="profile pic">
+        <fieldset>
+            <legend>FEEDBACK FORM</legend>
+            <form action="action_page.html" method="POST">
+                <div>
+                    <label for="Usernamefeed">Username</label>
+                    <input type="text" id="Usernamefeed" placeholder="Username" required>
+                </div>
+                <br>
+                <div>
+                    <label for="Passwordfeed">password</label>
+                    <input type="text" id="Passwordfeed" placeholder="Password" required>
+                </div>
+                <br>
+                <div>
+                    <label for="FeedBackfeed">Feedback</label>
+                    <textarea type="text" id="FeedBackfeed" placeholder="FeedBack" required></textarea>
+                </div>
+                <div>
+                    <br>
+                    <input type="reset">
+                    <input type="submit">
+                </div>
+            </form>
+        </fieldset>
+    </body>
+</html>

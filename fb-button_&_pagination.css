@@ -1,0 +1,35 @@
+a:hover{
+    color: rgb(241, 17, 17);
+    font-size: 1.1em;
+    background-color: black;
+}
+a:active{
+    color: rgb(234, 228, 60);
+    font-size: 1.1em;
+    background-color: black;
+}
+a:visited{
+    color: rgb(9, 243, 99);
+}
+
+td:hover{
+    background-color: blueviolet;
+}
+.pages{
+    text-align: center;
+}
+.pages a{
+    color: black;
+    text-decoration: none;
+    padding: 8px 15px;
+    display: inline-block;
+}
+.pages a.active{
+    background-color: burlywood;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.pages a:hover:not(.active){
+    background-color: yellow;
+    border-radius: 5px;
+}

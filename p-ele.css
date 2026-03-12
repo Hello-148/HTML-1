@@ -1,0 +1,9 @@
+#qq::before{
+    content: "✔";
+    font-size: 1.5em;
+    color: aqua;
+    background-color: blueviolet;
+}
+#qq::selection{
+    background-color: aqua;
+}
